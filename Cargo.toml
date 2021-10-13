@@ -10,7 +10,7 @@ edition = "2018"
 bytes = "^1.0"
 serde_json = "1.0.58"
 log = "0.4.11"
-tokio = { version = "^1.0", features = ["full"] }
+tokio = { version = "^1.0", features = ["rt"] }
 rusoto_core = "^0.47"
 rusoto_s3 = "^0.47"
 rusoto_lambda = "^0.47"
